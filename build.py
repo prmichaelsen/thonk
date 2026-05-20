@@ -119,8 +119,9 @@ def sync_images() -> None:
     IMAGES_DST.mkdir(parents=True, exist_ok=True)
     if not IMAGES_SRC.exists():
         return
-    for jpg in IMAGES_SRC.glob("*.jpg"):
-        shutil.copy2(jpg, IMAGES_DST / jpg.name)
+    for pattern in ("*.png", "*.jpg"):
+        for img in IMAGES_SRC.glob(pattern):
+            shutil.copy2(img, IMAGES_DST / img.name)
 
 
 def main() -> int:
