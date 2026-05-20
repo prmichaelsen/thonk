@@ -1,0 +1,52 @@
+# manifest.yaml — endlessthonk.com state
+#
+# launch_date  : first-deploy UTC date; sets day-index origin.
+# prompt_rotation : axis modifiers cycled by day_index % len(rotation).
+# scenes       : one entry per generated tile, append-only.
+#
+# Each wake: compute day_index from (today_utc - launch_date),
+# pick prompt_rotation[day_index % len], call replicate, download
+# JPEG to images/thonk-<date>.jpg, append a scene entry, run
+# build.py, deploy.
+
+launch_date: 2026-05-20
+
+prompt_rotation:
+  - "classic yellow emoji style, sunny daylight"
+  - "watercolor wash, gentle indigo palette"
+  - "high-contrast linework, black and white"
+  - "clay sculpture, photographed under warm studio key"
+  - "crayon on construction paper, child's-hand style"
+  - "pixel art, 32x32 chunky pixels, NES-era palette"
+  - "oil paint impasto, Van-Gogh-ish brush rhythm"
+  - "neon outline, dark backdrop, synthwave grid floor"
+  - "papercut layered, soft drop-shadow"
+  - "embroidered patch, visible thread texture"
+  - "brass sculpture, polished metal reflections"
+  - "risograph print, two-color overlay (red + blue)"
+  - "low-poly 3D render, faceted geometry"
+  - "charcoal sketch, smudged shading"
+  - "stained glass, leaded segments"
+  - "pencil sketch, hatched shading, sketchbook paper"
+  - "mosaic tile, small irregular ceramic pieces"
+  - "felt cutouts, soft fabric texture, pastel palette"
+  - "gold leaf on parchment, illuminated manuscript style"
+  - "anaglyph 3D, red-cyan offset on flat poster art"
+  - "wood-block print, Japanese ukiyo-e palette"
+  - "ASCII art rendering, monospace characters, green-on-black CRT"
+  - "smoke and ink, swirling negative space"
+  - "lego brick construction, primary colors"
+  - "neon sign tubing, dark brick wall behind"
+  - "topographic contour lines, single hue, cartographic"
+  - "isometric perspective, cel-shaded 3D"
+  - "rubber stamp ink, slightly uneven impression on tan paper"
+  - "vintage botanical illustration, careful watercolor and ink"
+  - "frosted glass, soft refractions, pale blue light"
+  - "linocut print, bold black lines, mustard background"
+  - "mid-century vector flat design, geometric simplification"
+  - "comic-book panel, halftone dot shading, primary palette"
+  - "marble carving, soft chisel marks, classical proportions"
+  - "thermal infrared imaging, color-mapped heat gradient"
+  - "constructivist poster art, red and black geometric"
+
+scenes: []

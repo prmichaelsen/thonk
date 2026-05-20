@@ -1,0 +1,164 @@
+/* endlessthonk.com — minimal static grid */
+
+:root {
+  --bg: #0f0f12;
+  --fg: #f5f3eb;
+  --dim: #8a877c;
+  --accent: #f5d76e;
+  --tile-bg: #1a1a1f;
+  --shadow: 0 1px 2px rgba(0,0,0,0.4);
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  border-bottom: 1px solid #222;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
+
+.status {
+  margin: 0.5rem 0 0;
+  color: var(--dim);
+  font-size: 0.95rem;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.empty {
+  text-align: center;
+  color: var(--dim);
+  font-style: italic;
+  padding: 4rem 1rem;
+  font-size: 1.1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.75rem;
+}
+
+.tile {
+  margin: 0;
+  position: relative;
+  aspect-ratio: 1 / 1;
+  background: var(--tile-bg);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.tile a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.tile:hover img {
+  transform: scale(1.04);
+}
+
+.tile figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.35rem 0.55rem;
+  font-size: 0.75rem;
+  color: var(--fg);
+  background: linear-gradient(transparent, rgba(0,0,0,0.75));
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.tile:hover figcaption {
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem 3rem;
+  border-top: 1px solid #222;
+  color: var(--dim);
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--dim);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--dim);
+  padding-bottom: 1px;
+}
+
+footer a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.about {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  color: var(--dim);
+  font-size: 0.95rem;
+}
+
+.about h2 {
+  color: var(--fg);
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 0 1rem;
+}
+
+.about a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--accent);
+}
+
+.about p {
+  margin: 0 0 1rem;
+}
+
+/* responsive — keep grid responsive on small viewports */
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 0.5rem;
+  }
+  header { padding: 2rem 1rem 1.5rem; }
+  h1 { font-size: 1.7rem; }
+}

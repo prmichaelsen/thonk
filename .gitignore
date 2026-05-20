@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+.wrangler/
+*.log
+.env
+.env.*
+# reflection runtime artifact — leaks in when the substrate links this repo
+agent/
