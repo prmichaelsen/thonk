@@ -1,4 +1,4 @@
-launch_date: 2026-05-20
+launch_date: '2026-04-01'
 prompt_rotation:
 - classic yellow emoji style, sunny daylight
 - watercolor wash, gentle indigo palette
@@ -38,6 +38,253 @@ prompt_rotation:
 - constructivist poster art, red and black geometric
 scenes:
 - day_index: 0
-  date: '2026-05-20'
+  date: '2026-04-01'
   axis: classic yellow emoji style, sunny daylight
+  image: thonk-2026-04-01.png
+  seeded: true
+- day_index: 1
+  date: '2026-04-02'
+  axis: watercolor wash, gentle indigo palette
+  image: thonk-2026-04-02.png
+  seeded: true
+- day_index: 2
+  date: '2026-04-03'
+  axis: high-contrast linework, black and white
+  image: thonk-2026-04-03.png
+  seeded: true
+- day_index: 3
+  date: '2026-04-04'
+  axis: clay sculpture, photographed under warm studio key
+  image: thonk-2026-04-04.png
+  seeded: true
+- day_index: 4
+  date: '2026-04-05'
+  axis: crayon on construction paper, child's-hand style
+  image: thonk-2026-04-05.png
+  seeded: true
+- day_index: 5
+  date: '2026-04-06'
+  axis: pixel art, 32x32 chunky pixels, NES-era palette
+  image: thonk-2026-04-06.png
+  seeded: true
+- day_index: 6
+  date: '2026-04-07'
+  axis: oil paint impasto, Van-Gogh-ish brush rhythm
+  image: thonk-2026-04-07.png
+  seeded: true
+- day_index: 7
+  date: '2026-04-08'
+  axis: neon outline, dark backdrop, synthwave grid floor
+  image: thonk-2026-04-08.png
+  seeded: true
+- day_index: 8
+  date: '2026-04-09'
+  axis: papercut layered, soft drop-shadow
+  image: thonk-2026-04-09.png
+  seeded: true
+- day_index: 9
+  date: '2026-04-10'
+  axis: embroidered patch, visible thread texture
+  image: thonk-2026-04-10.png
+  seeded: true
+- day_index: 10
+  date: '2026-04-11'
+  axis: brass sculpture, polished metal reflections
+  image: thonk-2026-04-11.png
+  seeded: true
+- day_index: 11
+  date: '2026-04-12'
+  axis: risograph print, two-color overlay (red + blue)
+  image: thonk-2026-04-12.png
+  seeded: true
+- day_index: 12
+  date: '2026-04-13'
+  axis: low-poly 3D render, faceted geometry
+  image: thonk-2026-04-13.png
+  seeded: true
+- day_index: 13
+  date: '2026-04-14'
+  axis: charcoal sketch, smudged shading
+  image: thonk-2026-04-14.png
+  seeded: true
+- day_index: 14
+  date: '2026-04-15'
+  axis: stained glass, leaded segments
+  image: thonk-2026-04-15.png
+  seeded: true
+- day_index: 15
+  date: '2026-04-16'
+  axis: pencil sketch, hatched shading, sketchbook paper
+  image: thonk-2026-04-16.png
+  seeded: true
+- day_index: 16
+  date: '2026-04-17'
+  axis: mosaic tile, small irregular ceramic pieces
+  image: thonk-2026-04-17.png
+  seeded: true
+- day_index: 17
+  date: '2026-04-18'
+  axis: felt cutouts, soft fabric texture, pastel palette
+  image: thonk-2026-04-18.png
+  seeded: true
+- day_index: 18
+  date: '2026-04-19'
+  axis: gold leaf on parchment, illuminated manuscript style
+  image: thonk-2026-04-19.png
+  seeded: true
+- day_index: 19
+  date: '2026-04-20'
+  axis: anaglyph 3D, red-cyan offset on flat poster art
+  image: thonk-2026-04-20.png
+  seeded: true
+- day_index: 20
+  date: '2026-04-21'
+  axis: wood-block print, Japanese ukiyo-e palette
+  image: thonk-2026-04-21.png
+  seeded: true
+- day_index: 21
+  date: '2026-04-22'
+  axis: ASCII art rendering, monospace characters, green-on-black CRT
+  image: thonk-2026-04-22.png
+  seeded: true
+- day_index: 22
+  date: '2026-04-23'
+  axis: smoke and ink, swirling negative space
+  image: thonk-2026-04-23.png
+  seeded: true
+- day_index: 23
+  date: '2026-04-24'
+  axis: lego brick construction, primary colors
+  image: thonk-2026-04-24.png
+  seeded: true
+- day_index: 24
+  date: '2026-04-25'
+  axis: neon sign tubing, dark brick wall behind
+  image: thonk-2026-04-25.png
+  seeded: true
+- day_index: 25
+  date: '2026-04-26'
+  axis: topographic contour lines, single hue, cartographic
+  image: thonk-2026-04-26.png
+  seeded: true
+- day_index: 26
+  date: '2026-04-27'
+  axis: isometric perspective, cel-shaded 3D
+  image: thonk-2026-04-27.png
+  seeded: true
+- day_index: 27
+  date: '2026-04-28'
+  axis: rubber stamp ink, slightly uneven impression on tan paper
+  image: thonk-2026-04-28.png
+  seeded: true
+- day_index: 28
+  date: '2026-04-29'
+  axis: vintage botanical illustration, careful watercolor and ink
+  image: thonk-2026-04-29.png
+  seeded: true
+- day_index: 29
+  date: '2026-04-30'
+  axis: frosted glass, soft refractions, pale blue light
+  image: thonk-2026-04-30.png
+  seeded: true
+- day_index: 30
+  date: '2026-05-01'
+  axis: linocut print, bold black lines, mustard background
+  image: thonk-2026-05-01.png
+  seeded: true
+- day_index: 31
+  date: '2026-05-02'
+  axis: mid-century vector flat design, geometric simplification
+  image: thonk-2026-05-02.png
+  seeded: true
+- day_index: 32
+  date: '2026-05-03'
+  axis: comic-book panel, halftone dot shading, primary palette
+  image: thonk-2026-05-03.png
+  seeded: true
+- day_index: 33
+  date: '2026-05-04'
+  axis: marble carving, soft chisel marks, classical proportions
+  image: thonk-2026-05-04.png
+  seeded: true
+- day_index: 34
+  date: '2026-05-05'
+  axis: thermal infrared imaging, color-mapped heat gradient
+  image: thonk-2026-05-05.png
+  seeded: true
+- day_index: 35
+  date: '2026-05-06'
+  axis: constructivist poster art, red and black geometric
+  image: thonk-2026-05-06.png
+  seeded: true
+- day_index: 36
+  date: '2026-05-07'
+  axis: classic yellow emoji style, sunny daylight
+  image: thonk-2026-05-07.png
+  seeded: true
+- day_index: 37
+  date: '2026-05-08'
+  axis: watercolor wash, gentle indigo palette
+  image: thonk-2026-05-08.png
+  seeded: true
+- day_index: 38
+  date: '2026-05-09'
+  axis: high-contrast linework, black and white
+  image: thonk-2026-05-09.png
+  seeded: true
+- day_index: 39
+  date: '2026-05-10'
+  axis: clay sculpture, photographed under warm studio key
+  image: thonk-2026-05-10.png
+  seeded: true
+- day_index: 40
+  date: '2026-05-11'
+  axis: crayon on construction paper, child's-hand style
+  image: thonk-2026-05-11.png
+  seeded: true
+- day_index: 41
+  date: '2026-05-12'
+  axis: pixel art, 32x32 chunky pixels, NES-era palette
+  image: thonk-2026-05-12.png
+  seeded: true
+- day_index: 42
+  date: '2026-05-13'
+  axis: oil paint impasto, Van-Gogh-ish brush rhythm
+  image: thonk-2026-05-13.png
+  seeded: true
+- day_index: 43
+  date: '2026-05-14'
+  axis: neon outline, dark backdrop, synthwave grid floor
+  image: thonk-2026-05-14.png
+  seeded: true
+- day_index: 44
+  date: '2026-05-15'
+  axis: papercut layered, soft drop-shadow
+  image: thonk-2026-05-15.png
+  seeded: true
+- day_index: 45
+  date: '2026-05-16'
+  axis: embroidered patch, visible thread texture
+  image: thonk-2026-05-16.png
+  seeded: true
+- day_index: 46
+  date: '2026-05-17'
+  axis: brass sculpture, polished metal reflections
+  image: thonk-2026-05-17.png
+  seeded: true
+- day_index: 47
+  date: '2026-05-18'
+  axis: risograph print, two-color overlay (red + blue)
+  image: thonk-2026-05-18.png
+  seeded: true
+- day_index: 48
+  date: '2026-05-19'
+  axis: low-poly 3D render, faceted geometry
+  image: thonk-2026-05-19.png
+  seeded: true
+- day_index: 49
+  date: '2026-05-20'
+  axis: charcoal sketch, smudged shading
   image: thonk-2026-05-20.png
+  seeded: true
+backfilled_at: '2026-05-20'
